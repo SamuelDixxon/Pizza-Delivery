@@ -17,9 +17,9 @@ class Shift:
         
         while completed != True:
             
-            completed = input("Enter the the tip values one at a time, once complete enter False: ")
+            completed = input("Enter the the tip values one at a time, once complete enter True: ")
             
-            if completed == "False":
+            if completed == "True":
                 completed = bool(completed)
             else:
                 self.tiplist.append(float(completed))
